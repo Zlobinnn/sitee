@@ -30,7 +30,7 @@ canvas.addEventListener('mousemove', function(event) {
   var y = event.offsetY;
 
   // стираем пиксель на указанных координатах
-  context.clearRect(x, y, 30, 30);
+  context.clearRect(x-15, y-15, 30, 30);
 });
 
 // добавляем обработчик события для нажатия кнопки мыши
