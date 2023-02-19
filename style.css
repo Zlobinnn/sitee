@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     /* display: flex; */
     justify-content: center;
-    min-height: 10000px;
+    min-height: 9000px;
   }
   
   h1, p {
@@ -60,7 +60,7 @@ body {
 }
 
  #canvas-container {
-  display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 } 
