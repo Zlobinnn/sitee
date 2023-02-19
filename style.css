@@ -1,0 +1,60 @@
+body {
+    background-color: pink;
+    font-family: Arial, sans-serif;
+    /* display: flex; */
+    justify-content: center;
+    min-height: 10000px;
+  }
+  
+  h1, p {
+    text-align: center;
+    color: white;
+  }
+
+  .img1, .p1 {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .content {
+    /* display: inline-block; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .img1 {
+    /* margin-left: 500px; */
+    width: 30%;
+  }
+  .p1{
+    width: 60%;
+  }
+  
+  p {
+    font-size: 60px;
+    color: white;
+  }
+
+  .p2{
+    /* position: absolute; */
+    margin-top: 1600px;
+  }
+
+  .p3{
+    margin-top: 1600px;
+  }
+
+  .p4{
+    margin-top: 1600px;
+  }
+
+  .p5{
+    margin-top: 1600px;
+  }
+.photo1{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
