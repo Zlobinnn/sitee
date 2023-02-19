@@ -58,3 +58,22 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+ #canvas-container {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+#text-container {
+  position: absolute;
+}
+
+#text {
+  font-size: 60px;
+  color: white;
+}
+
+#canvas{
+  z-index: 10;
+}
